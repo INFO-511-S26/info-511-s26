@@ -51,23 +51,23 @@ Based on the Kolmogorov axioms:
 
 1.  Total number of people in the cohort.
 
-$Total=5438+1039+29712+4440+24934+3601=69604$
+$Total=5438+1039+29712+4440+24934+3601=69164$
 
 2.  $\small{P(A)}$: Probability that the person died.
 
-$\small{P(A)} = \frac{1039+4440+3601}{69604}=\frac{9080}{69604}\approx0.1305$
+$\small{P(A)} = \frac{1039+4440+3601}{69164}=\frac{9080}{69164}\approx0.1313$
 
 3.  $\small{P(B)}$: Probability that the person is a non-coffee drinker.
 
-$\small{P(B)} = \frac{5438+1039}{69604} = \frac{6477}{69604} \approx 0.0931$
+$\small{P(B)} = \frac{5438+1039}{69164} = \frac{6477}{69164} \approx 0.0936$
 
 4.  $\small{P(A \text{ and } B)}$: Probability that the person died and is a non-coffee drinker.
 
-$\small{P(A \cap B)}=\frac{1039}{69604} \approx 0.0149$
+$\small{P(A \cap B)}=\frac{1039}{69164} \approx 0.0150$
 
 5.  $\small{P(A \text{ or } B)}$: Probability that the person died or is a non-coffee drinker.
 
-$\small{P(A \cup B)}=\small{P(A)}+\small{P(B)}-\small{P(A \cap B)}=0.1305+0.0931-0.014$
+$\small{P(A \cup B)}=\small{P(A)}+\small{P(B)}-\small{P(A \cap B)}=0.1313+0.0936-0.015$
 
 6.  $\small{P(A \text{ or } B^c)}$: Probability that the person died or is not a non-coffee drinker.
 
@@ -75,15 +75,15 @@ $\small{P(A \cup B)}=\small{P(A)}+\small{P(B)}-\small{P(A \cap B)}$
 
 First, calculate $\small{P(B^c)}$:
 
-$\small{P(B^c)}=1-\small{P(B)}=1-0.0931=0.9069$
+$\small{P(B^c)}=1-\small{P(B)}=1-0.0936=0.9064$
 
 Then calculate $\small{P(A \cap B^c)}$ (people who dies and drink coffee occasionally or regularly):
 
-$\small{P(A \cap B^c)}=\frac{4440+3601}{69604}=\frac{8041}{69604}\approx0.1155$
+$\small{P(A \cap B^c)}=\frac{4440+3601}{69164}=\frac{8041}{69164}\approx0.1163$
 
 Finally, calculate $\small{P(A \text{ or } B^c)}$:
 
-$\small{P(A \cup B^c)}=0.1305+0.9069-0.1155 \approx 0.9219$
+$\small{P(A \cup B^c)}=0.1313+0.9064-0.1163 \approx 0.9214$
 
 ## Discussion Questions:
 
@@ -91,15 +91,15 @@ $\small{P(A \cup B^c)}=0.1305+0.9069-0.1155 \approx 0.9219$
 
 -   The probabilities calculated provide insights into the relationship between coffee consumption and mortality:
 
-    -   $\small{P(A)}\approx0.1305$: About 13.05% of the people in the cohort died.
+    -   $\small{P(A)}\approx0.1305$: About 13.13% of the people in the cohort died.
 
-    -   $\small{P(B)} \approx 0.0931$: About 9.31% of the people in the cohort do not drink coffee.
+    -   $\small{P(B)} \approx 0.0931$: About 9.36% of the people in the cohort do not drink coffee.
 
-    -   $\small{P(A \text{ and } B)} \approx 0.0149$: About 1.49% of the people in the cohort both died and do not drink coffee.
+    -   $\small{P(A \text{ and } B)} \approx 0.0149$: About 1.50% of the people in the cohort both died and do not drink coffee.
 
-    -   $\small{P(A \text{ or } B)} \approx 0.2087$: About 20.87% of the people in the cohort either died or do not drink coffee.
+    -   $\small{P(A \text{ or } B)} \approx 0.2087$: About 20.99% of the people in the cohort either died or do not drink coffee.
 
-    -   $\small{P(A \text{ or } B^c)} \approx 0.9219$: About 92.19% of the people in the cohort either died or drink coffee.
+    -   $\small{P(A \text{ or } B^c)} \approx 0.9219$: About 92.14% of the people in the cohort either died or drink coffee.
 
     From these probabilities, we can observe that the proportion of people who died (P(A)) is higher among those who drink coffee compared to non-coffee drinkers.
     However, the data does not immediately suggest a direct causative effect of coffee consumption on mortality.

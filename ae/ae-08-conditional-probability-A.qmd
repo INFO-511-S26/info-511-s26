@@ -52,9 +52,9 @@ Using the given data, calculate the probability that an individual has COVID-19 
 
 1.  **Substitute the Given Values:**
 
-    -   **Sensitivity**: $P(T | D)$ = 0.087
-    -   **Specificity**: $P(T^c | D^c)$ = 0.642
-    -   **Prevalence**: $P(D)$ = 0.998. among persons aged 10 years and older.
+    -   **Sensitivity**: $P(T | D)$ = 0.642
+    -   **Specificity**: $P(T^c | D^c)$ = 0.998
+    -   **Prevalence**: $P(D)$ = 0.087. among persons aged 10 years and older.
 
 2.  **Calculate the Complementary Probabilities**
 
@@ -82,7 +82,7 @@ $$
 P(D | T)=\frac{P(T | D) ⋅ P(D)}{P(T | D) ⋅ P(D) + (1-P(T^c | D^c)) ⋅ (1-P(D))}
 $$
 
-$P(D∣T)=\frac{0.05768}{0.055854}​≈0.968$
+$P(D∣T)=\frac{0.055854}{0.05768}\approx0.968$
 
 ### Discussion Questions:
 
