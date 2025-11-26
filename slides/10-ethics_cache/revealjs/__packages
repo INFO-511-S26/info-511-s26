@@ -1,4 +1,3 @@
-countdown
 tidyverse
 ggplot2
 tibble
@@ -9,5 +8,4 @@ dplyr
 stringr
 forcats
 lubridate
-googlesheets4
 wru

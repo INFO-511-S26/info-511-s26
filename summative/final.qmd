@@ -2,7 +2,7 @@
 title: "Final Assignment"
 format:
   html: default
-  pdf: default
+  #pdf: default
 execute:
   echo: false
   message: false
@@ -293,7 +293,7 @@ print(summary)
 Which of the following visualizations represent this model?
 Explain your reasoning.
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{python}
 #| label: fig-raise-salary-type
@@ -348,9 +348,9 @@ plot2 = (
 print(plot2)
 ```
 :::
-:::
+:::::
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{python}
 #| label: fig-raise-salary-type-3
@@ -403,7 +403,7 @@ plot4 = (
 print(plot4)
 ```
 :::
-:::
+:::::
 
 Visualizations of the relationship between percent increase, annual salary, and salary type
 

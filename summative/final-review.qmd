@@ -1,0 +1,224 @@
+---
+title: "Final Assignment"
+format:
+  html: default
+editor_options: 
+  chunk_output_type: console
+---
+
+# **Final Assignment — Conceptual Review Guide**
+
+This guide summarizes the concepts and reasoning skills needed for each section.
+Use it to study, but you will still need to apply the ideas on your own in the final.
+
+------------------------------------------------------------------------
+
+# **Part 1 — Simulation, Bootstrapping, and Confidence Intervals**
+
+### **Q1 — Designing a Simulation**
+
+You should know:
+
+-   What a **simulation study** is and why we use it.
+-   How to represent a population with a known proportion.
+-   How to repeatedly **sample** from that population.
+-   How to compute a statistic (e.g., a proportion) for each simulated sample.
+-   How to use these statistics to understand **sampling variability**.
+
+Focus on:
+
+> What does each step of the simulation correspond to in real life?
+
+------------------------------------------------------------------------
+
+### **Q2 — Reading a Bootstrap Distribution**
+
+You should be able to:
+
+-   Understand that bootstrapping samples **with replacement from your sample**, not from the population.
+-   Interpret a histogram of bootstrap statistics.
+-   Identify the **middle 95%** of bootstrap values to approximate a confidence interval.
+-   Recognize whether the distribution is symmetrical or skewed.
+
+Focus on:
+
+> What does the range of bootstrap statistics represent?
+
+------------------------------------------------------------------------
+
+### **Q3 — Interpreting Confidence Intervals**
+
+You should know:
+
+-   A confidence interval describes a **procedure**, not the probability of a parameter.
+-   A confidence interval does **not** say the true parameter lies in the interval with a certain probability.
+-   Confidence language always relates to **repeated sampling**.
+
+Focus on:
+
+> What does “95% confident” mean in terms of repeated intervals from repeated samples?
+
+------------------------------------------------------------------------
+
+# **Part 2 — Regression Concepts**
+
+### **Q4 — Interpreting Slopes**
+
+Key ideas:
+
+-   A slope describes how the predicted outcome changes when the predictor increases by **one unit**, holding other variables constant.
+-   Understand the **units** of the slope: dollars vs thousands of dollars, percentages vs percent points.
+-   Small coefficients often reflect predictors measured on large scales.
+
+Focus on:
+
+> Be clear about “for every 1-unit increase in X…”.
+
+------------------------------------------------------------------------
+
+### **Q5 — Comparing Regression Models**
+
+You should recall:
+
+-   Adding predictors always increases or leaves unchanged the **R²** value.
+-   **Adjusted R²** may increase or decrease depending on usefulness of the added predictor.
+-   Slope changes, intercept changes, and RMSE changes **cannot be guaranteed** without additional information.
+
+Focus on:
+
+> Which regression metrics always behave predictably when adding new predictors?
+
+------------------------------------------------------------------------
+
+### **Q6 — Interpreting Dummy-Coded Categorical Variables**
+
+You should understand:
+
+-   Dummy coding compares each category to a **reference category**.
+-   Coefficients tell the **difference** relative to the reference group, not absolute values.
+-   A negative coefficient does not imply “bad” — it means "lower than the reference" while holding predictors constant.
+
+Focus on:
+
+> How does the choice of reference level affect interpretation?
+
+------------------------------------------------------------------------
+
+### **Q7 — Releveling a Categorical Variable**
+
+You should know:
+
+-   How to set an ordered list of category levels.
+-   That the **first** category determines the reference level for dummy coding.
+-   Changing the reference level changes the meaning of the coefficients.
+
+Focus on:
+
+> How does reordering levels change model interpretation?
+
+------------------------------------------------------------------------
+
+### **Q8 — Visualizing Regression with a Categorical Predictor**
+
+You should be able to reason about:
+
+-   What a regression plot looks like when:
+
+    -   There is **one slope** shared across categories.
+    -   Only intercepts differ (parallel lines).
+
+-   How to match fitted model structure to the correct visualization.
+
+Focus on:
+
+> Does the model contain an interaction?
+> If not, slopes must be the same.
+
+------------------------------------------------------------------------
+
+# **Part 3 — Calculus Review**
+
+### **Q12 — Derivatives**
+
+Make sure you understand:
+
+-   The **chain rule** for compositions.
+-   How to differentiate sums of functions.
+-   How to differentiate trigonometric functions.
+-   How exponents interact with outer functions.
+
+Focus on:
+
+> Identify inner and outer functions clearly before applying the chain rule.
+
+------------------------------------------------------------------------
+
+### **Q13 — Integrals**
+
+Key concepts:
+
+-   Integration of exponential functions with constants in the exponent.
+-   Integration of power functions using the power rule.
+-   Knowing the special case when the exponent equals −1 (logarithm).
+
+Focus on:
+
+> Recognize which rule applies to each term inside the integral.
+
+------------------------------------------------------------------------
+
+# **Part 4 — Linear Algebra Review**
+
+### **Q14 & Q15 — Transposes**
+
+You should know:
+
+-   How vector and matrix transposes are formed by swapping rows and columns.
+-   How dimensions change after transposition (e.g., 3×2 becomes 2×3).
+
+Focus on:
+
+> Transposition is purely positional — no arithmetic is involved.
+
+------------------------------------------------------------------------
+
+### **Q16 — Matrix Multiplication Validity & Dimensions**
+
+Know how to:
+
+-   Determine dimensions of matrices.
+-   Check whether multiplication is valid (inner dimensions must match).
+-   Determine the dimensions of the product (outer dimensions give the result).
+
+Focus on:
+
+> Validity depends only on the structure of the matrices, not the values.
+
+------------------------------------------------------------------------
+
+### **Q17 — Multiplying a Matrix and a Vector**
+
+You should understand:
+
+-   Conditions for validity (columns of the first = rows of the second).
+-   How to compute matrix-vector multiplication.
+-   How the result combines rows of the matrix with entries of the vector.
+
+Focus on:
+
+> Each row of the matrix produces one entry in the resulting vector.
+
+------------------------------------------------------------------------
+
+# **Bonus — Self-Reflection**
+
+Be ready to:
+
+-   Pick any concept from the course.
+-   Describe it accurately in your own words.
+-   Show that you understand the idea even if it was difficult initially.
+-   No need to solve a problem — just explain the idea.
+
+Focus on:
+
+> Depth of understanding, not correctness of a calculation.

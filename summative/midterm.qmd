@@ -2,7 +2,7 @@
 title: "Midterm Assignment"
 format:
   html: default
-  pdf: default
+  #pdf: default
 execute:
   echo: false
   message: false
