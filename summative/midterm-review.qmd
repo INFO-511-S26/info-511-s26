@@ -1,0 +1,204 @@
+---
+title: "Midterm Assignment / Assessment — Conceptual Review Guide"
+format:
+  html: default
+editor_options: 
+  chunk_output_type: console
+---
+
+This guide summarizes the **concepts, reasoning skills, and data-analysis habits** you need to demonstrate on the midterm.
+It does *not* contain answers—its purpose is to help you review the underlying ideas behind the tasks you will complete using the Blizzard salary dataset.
+
+Use this guide alongside the midterm README and your course notes.
+
+------------------------------------------------------------------------
+
+# **Understanding DataFrames, Variable Types, and `.info()`**
+
+You should be comfortable:
+
+-   Reading output from:
+
+    -   `.head()`
+    -   `.info()`
+    -   `.describe()`
+
+-   Determining:
+
+    -   How many rows and columns a dataset has.
+
+    -   What a *row* represents (the unit of observation).
+
+    -   Which variables are:
+
+        -   **Numeric** (e.g., salary, percent increase)
+        -   **Categorical** (e.g., performance rating)
+        -   **Ordinal** (e.g., performance ratings that have a meaningful order)
+
+-   Explaining why a variable is treated as a specific type.
+
+Key idea: `object` does **not** necessarily mean “string”—it often means “this should be a categorical variable.”
+
+------------------------------------------------------------------------
+
+# **Describing and Comparing Distributions**
+
+You should know how to:
+
+-   Interpret histograms, boxplots, and summary statistics.
+
+-   Compare distributions based on:
+
+    -   **Center** (mean, median)
+    -   **Spread** (standard deviation, IQR)
+    -   **Shape** (skew, tails)
+    -   **Outliers**
+
+-   Decide which visualization makes comparison easier:
+
+    -   Dodged histograms vs stacked histograms
+    -   Boxplots vs histograms vs density plots
+
+Think about:
+
+> When is it easier to compare medians?
+> When is it easier to compare proportions?
+> When is it easier to compare counts?
+
+------------------------------------------------------------------------
+
+# **Grouped Summaries and Aggregation**
+
+You should understand:
+
+-   How `groupby(...).agg(...)` computes:
+
+    -   Means
+    -   Medians
+    -   Standard deviations
+
+-   How to interpret these summaries to make statements such as:
+
+    -   Which group earns more on average?
+    -   Which group has more variation in salary?
+
+Also: Given summary output with a missing value, you should be able to reason about what the missing value *should* be based on context.
+
+------------------------------------------------------------------------
+
+# **Categorical Variables, Ordering, and Visualization**
+
+You should be able to:
+
+-   Recognize when a categorical variable needs an **explicit order** using `pd.Categorical(..., ordered=True)`.
+
+-   Explain how ordering affects:
+
+    -   Plot appearance
+    -   Axis order
+    -   Interpretation
+
+You should understand the difference between:
+
+-   **Count plots** showing number of observations per category.
+-   **Proportion plots** showing relative percentages within a group.
+
+And know when to use each.
+
+------------------------------------------------------------------------
+
+# **Filtering and Subsetting Data**
+
+You should understand:
+
+-   How to filter data with:
+
+    -   `==`, `!=`
+    -   `&` (and), `|` (or)
+
+-   Why parentheses are required in filters.
+
+-   How filtering affects:
+
+    -   The number of rows
+    -   The interpretation of a plot based on filtered data
+
+-   How `.sort_values(by=...)` works and what it does *not* do.
+
+Key understanding:
+
+> When you see fewer bars or rows than expected, think about filtering, missing data, and `.dropna()`.
+
+------------------------------------------------------------------------
+
+# **Interpreting Relationships in Plots**
+
+When describing relationships in scatterplots or other comparisons, you should be able to talk about:
+
+-   **Direction**: positive, negative, none
+-   **Form**: linear, curved, no pattern
+-   **Strength**: strong, moderate, weak
+-   **Outliers**: unusual points
+-   **Causality**: observational data ≠ causal evidence
+
+You should recognize when an interpretation is incomplete or overly confident.
+
+Key idea: A description of a relationship should address *all four* of direction, form, strength, and outliers **without implying causation**.
+
+------------------------------------------------------------------------
+
+# **Plot Critique and Code Quality**
+
+You should be able to:
+
+-   Identify improvements to plotting code (labels, ordering, clarity).
+
+-   Suggest ways to represent missing values:
+
+    -   Include a “Missing” category
+    -   Annotate counts
+    -   Provide summary statistics alongside plots
+
+Focus on:
+
+> How can the plot better communicate the data honestly and clearly?
+
+------------------------------------------------------------------------
+
+# **Git + Quarto Workflow: Render, Commit, Push**
+
+You should understand:
+
+**Render**
+
+-   Executes the Quarto file.
+-   Produces HTML/PDF output with the latest code, text, and plots.
+
+**Commit**
+
+-   Saves a snapshot of your changed files to your local Git repository.
+
+**Push**
+
+-   Uploads your commits to GitHub so others can see them.
+
+Critical insight:
+
+> If you don’t push, no one else can see your changes—even if you rendered and committed.
+
+------------------------------------------------------------------------
+
+# **Self-Reflection (Bonus)**
+
+Be ready to:
+
+-   Pick any course concept and explain it in **your own words**.
+-   Show that you understand the idea, not just the procedure.
+-   Describe why it matters or when it is used.
+
+Examples include:
+
+-   Why histograms and boxplots complement each other
+-   What dummy coding does
+-   Why missing data matters
+-   How Git prevents version conflicts

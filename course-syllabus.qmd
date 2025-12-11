@@ -1,6 +1,6 @@
 ---
 title: "INFO 511 - Fundamentals of Data Science"
-subtitle: "Fall 2025"
+subtitle: "Spring 2026"
 format:
   html: default
   pdf: default
@@ -13,7 +13,7 @@ The course establishes the foundation for advanced data-intensive classes, provi
 
 ## Course offering
 
-258-2254-1 INFO 511 101 201 – Fundamentals of Data Science
+774-2261-1 INFO 511 101 201 – Fundamentals of Data Science
 
 ## Instructor Information
 
@@ -36,7 +36,7 @@ Students should be comfortable with mathematical functions of one and two variab
 ## Course Format
 
 Asynchronous online lectures.
-Videos of each lecture will be available no later than the Monday of each week by 9am AZ time.
+Videos of each lecture will be available upon the beginning of the semester.
 
 ## Course Objective
 
@@ -125,7 +125,7 @@ To help accomplish this:
 
 All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website: [datasciaz.netlify.app](https://datasciaz.netlify.app/).
 
-I will regularly send course announcements via email and Slack, make sure to check one or the other of these regularly.
+I will regularly send course announcements via email and Discord, make sure to check one or the other of these regularly.
 If an announcement is sent Monday through Thursday, I will assume that you have read the announcement by the next day.
 If an announcement is sent on a Friday or over the weekend, I will assume that you have read it by Monday.
 
@@ -133,7 +133,7 @@ If an announcement is sent on a Friday or over the weekend, I will assume that y
 
 -   If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
 -   The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!
--   Outside of class and office hours, any general questions about course content or assignments should be posted on the course [Slack](https://info511spring2025.slack.com). There is a chance another student has already asked a similar question, so please check the other posts on Slack before adding a new question. If you know the answer to a question posted on Slack, I encourage you to respond!
+-   Outside of class and office hours, any general questions about course content or assignments should be posted on the course Discord. There is a chance another student has already asked a similar question, so please check the other posts on Discord before adding a new question. If you know the answer to a question posted on Discord, I encourage you to respond!
 
 Check out the [Support](/course-support) page for more resources.
 
@@ -189,17 +189,18 @@ Through these assignments you have the opportunity to demonstrate what you’ve 
 The assignments will focus on both conceptual understanding of the content and application through analysis and computational tasks.
 The content of the assignment will be related to the content in videos and reading assignments, lectures, application exercises, and homework assignments.
 
+A summative assessment will accompany each assignment within D2L.
+
 More detail about the assignments will be given during the semester.
 
-### Project
+### Data Science Experiences (DSE I & DSE II)
 
-The purpose of the project is to apply what you’ve learned throughout the semester to analyze an interesting data-driven research question.
-The project will be completed individually, working through codabench to meet a benchmark.
-The top 5 individuals will receive 5% extra credit in the class.
-The write-up will be due on the same day as the end of the competition.
-*More to come on this.*
+During the semester, there will be two Data Science Experiences required which connect what we do in class to how data science is practiced in the real world.
+These experiences might include attending a talk or workshop, interviewing a data scientist, participating in a data challenge, or completing an approved book study.
+For each experience, it will be required to submit a one-slide professional summary and a 600–1,000 word reflection connecting what was learned to course concepts.
+The goal is to facilitate exploration of careers, tools, ethics, and real-world workflows in data science.
 
-*You cannot pass this course if you have not completed the project.*
+*You cannot pass this course if you have not completed DSE I & DSE II.*
 
 More information about the project will be provided during the semester.
 
@@ -212,12 +213,12 @@ The final course grade will be calculated as follows:
 | Category                            | Percentage |
 |-------------------------------------|------------|
 | Homeworks (5)                       | 30%        |
-| Project                             | 25%        |
-| Summative assignment 1              | 10%        |
-| Summative assignment 2              | 10%        |
-| Application Exercises (13 required) | 25%        |
+| DSE I & II                          | 20%        |
+| Summative assignment 1              | 20%        |
+| Summative assignment 2              | 20%        |
+| Application Exercises (13 required) | 10%        |
 
-While there are no specific points allocated to participation, we will be recording your participation (mainly via slack) in periodically throughout the semester, and this information will be used as “extra credit” if you’re in between two grades and a minor bump would help.
+While there are no specific points allocated to participation, we will be recording your participation (mainly via Discord) in periodically throughout the semester, and this information will be used as “extra credit” if you’re in between two grades and a minor bump would help.
 For reference, this would equate to a 1-2% bump.
 
 The final letter grade will be determined based on the following thresholds:
@@ -280,8 +281,8 @@ Please abide by the following as you work on assignments in this course:
         Unauthorized collaboration or using unauthorized materials will be considered a violation for all students involved.
         More details will be given closer to the assignment date.
 
-    -   For the project, collaboration within teams is not only allowed, but expected.
-        Communication between individuals at a high level is also allowed however you may not share code or components of the project across teams.
+    -   For DSE I & II, collaboration is not only allowed.
+        Communication between individuals at a high level is also allowed however you may not share components of the experiences - i.e., plagiarize.
 
     -   On assignments you may not directly share work (including code) with another student in this class.
 
@@ -326,10 +327,10 @@ As future professionals in digital environments, InfoSci students are also expec
 
 -   Generating and submitting, in whole or in part, text or code through Artificial Intelligence such as ChatGPT, QuillBot, and text summarizers
 
--   Using, in whole or in part, computer code not written by the student (for example, from another student, a book, or the internet) in an assignment or project.
+-   Using, in whole or in part, computer code not written by the student (for example, from another student, a book, or the internet) in an assignment or DSE I & II.
     This includes using such code in modified or unmodified form.
 
--   Searching for solutions to projects or assignments on the internet or through other tools, when your instructor intended for you to learn the solution through exercises (e.g. Googling for the solution to a question on an assignment).
+-   Searching for solutions to assignments on the internet or through other tools, when your instructor intended for you to learn the solution through exercises (e.g. Googling for the solution to a question on an assignment).
 
 -   Simultaneously submitting the same assignment as another student enrolled into the course without prior permission from the instructor
 
@@ -361,7 +362,7 @@ Note that the lowest homework assignment will be dropped to accommodate such cir
 
 -   There is no late work accepted for assignments.
 
--   The late work policy for the project will be provided with the project instructions.
+-   There is no late work accepted for DSE I & II.
 
 ### Waiver for extenuating circumstances
 
@@ -379,7 +380,7 @@ Regrade requests will be considered if there was an error in the grade calculati
 Requests to dispute the number of points deducted for an incorrect response will not be considered.
 Note that by submitting a regrade request, the entire question will be graded which could potentially result in losing points.
 
-*No grades will be changed after the project presentations.*
+*No grades will be changed after the DSE II deadline.*
 
 ## "Incomplete" grade
 
@@ -411,13 +412,13 @@ Also watch the video available at <https://arizona.sabacloud.com/Saba/Web_spf/N
 
 ## Important dates
 
--   **Monday, August 25:** Classes begin
--   **Monday,** **Sept 01:** Labor Day
--   **Tuesday, September 02**: Drop/add ends
--   **Sunday, September 21**: Last day to drop without a W (withdraw)
--   **Sunday, November 02**: Last day to withdraw from a class online through UAccess
--   **Wednesday, December 10**: Last day of class, no registration changes can be made
--   **Wednesday, December 17**: Project reports, due by 5pm AZ time
+-   **Wednesday, January 14:** Classes begin
+-   **Monday,** **January 19:** MLK Jr Holiday - no classes
+-   **Wednesday, January 21**: Drop/add ends
+-   **Tuesday, February 10**: Last day to drop without a W (withdraw)
+-   **Tuesday, March 31**: Last day to withdraw from a class online through UAccess
+-   **Wednesday, May 06**: Last day of class, no registration changes can be made
+-   **Wednesday, May 13**: Final assignment + assessment, due by 5pm AZ time
 
 For more important dates, see the full [U of A Academic Calendar](https://archive.catalog.arizona.edu/2022-23/2024-2025-academic-calendar.html).
 

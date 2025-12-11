@@ -5,63 +5,106 @@ execute:
   eval: false
 ---
 
+> The goal of this assignment is not just to observe data science—but to begin participating in the data science ecosystem as an emerging professional.
+
+The world of data science extends far beyond the classroom.
+Professional identity, ethical awareness, technical growth, and community engagement are just as important as coding and modeling.
+
+The **Data Science Experience (DSE)** assignments are designed to:
+
+-   Expose you to **real-world data science practice**
+
+-   Help you **connect classroom learning to industry, research, ethics, and public impact**
+
+-   Build your **professional communication and reflection skills**
+
+-   Create **portfolio-ready artifacts**
+
+You will complete **two Data Science Experiences** this semester:
+
+1.  DSE I (Midterm)
+
+2.  DSE II (End of Term)
+
+📌 You will have separate GitHub repositories assigned for each experience.
+📌 No late submissions are accepted.
+📌 You may submit anytime before the deadline.
+
+## Global Requirements
+
+You must complete both parts for each DSE:
+
+-   [Part 1: Engage in a qualifying data science experience](#part-1-experience-data-science-outside-of-the-classroom)
+
+-   [Part 2: Produce a professional summary artifact (slides + reflection)](#part-2-summarize-your-experience)
+
 ::: callout-important
-Completion of the DS Experience counts as a replacement for one homework from hw-01 to hw-05.
+> You may NOT repeat the same category across DSE I and DSE II.
 :::
 
--   [Part 1: Experience data science outside of the classroom](#part-1-experience-data-science-outside-of-the-classroom)
+## Acceptable Category Pairings
 
--   [Part 2: Summarize your experience](#part-2-summarize-your-experience)
+You must choose:
 
--   [Submission](#submission)
+-   Two different categories among 1, 2, and 3, OR
 
-The world of data science is vast and continually growing!
-The goal of the data science experience assignments is to help you engage with the data science communities outside of the classroom.
+-   Category 4 alone, OR
 
-There will be one *optional* data science experience assignment that will replace up to one homework grade (among homeworks 01-05).
-**The submission for the statistics experience is due on Friday, April 25 at 11:59pm AZ time on GitHub (you will have an assigned repo). No late work will be accepted for the data science experience.** You may submit the data science experience assignment anytime between now and the deadline.
+-   Category 5 alone
 
-Each experience has two parts:
+# PART 1 — The Data Science Experience (Field Engagement)
 
-1️⃣ Have a data science experience
+## Category 1: Attend a Talk, Conference, or Workshop
 
-2️⃣ Make a slide summarizing on your experience
+Attend a **data science–related**: \* Talk \* Panel \* Workshop \* Conference session \* Hackathon onboarding or tutorial
 
-**You must complete both parts to receive credit.**
+#### Requirements
 
-## Part 1: Experience data science outside of the classroom {#part-1-experience-data-science-outside-of-the-classroom}
+1.  Must be **≥ 30 minutes**
+2.  May be **in-person or virtual** (cannot be recordings)
+3.  Must involve active **data science, analytics, AI, or statistics content**
 
-Complete an activity in one of the categories below.
-Under each category are suggested activities.
-You do not have to do one these suggested activities.
-You are welcome to find other activities as long as they are related to data science and they fit in one of the six categories.
-You can email Professor Chism if there is an activity you’d like to do but you’re not sure if it qualifies for the data science experience.
+#### Examples
 
-### Category 1: Attend a talk, conference, or workshop
+-   University data science seminars
+-   Posit::conf, PyData, SciPy talks
+-   Government or industry AI briefings
+-   Arizona Data Lab workshops
+-   Responsible AI / ethics panels
 
-Attend an talk, panel, or conference related to data science.
-If you are attending a single talk or panel, it must be [**at least 30 minutes**]{.underline} to count towards the statistics experience.
-The event can be in-person or online.
+## Category 2: Interview or Shadow a Data Scientist
 
-### Category 2: Talk with a data scientist
+Engage directly with someone who **uses data science professionally**, such as: \* Industry professional \* Research scientist \* Graduate student \* Faculty researcher \* Government analyst
 
-Talk with someone who uses data science in their daily work.
-This could include a professor, professional in industry, graduate student, etc.
+### Minimum Expectations
 
-### Category 3: Listen to a podcast / watch video
+-   **30-minute conversation**
+-   You must prepare **at least 8 thoughtful questions**
+-   Topics should include:
+    -   Career path
+    -   Daily workflow
+    -   Tools used
+    -   Ethical challenges
+    -   Advice for students
 
-Listen to a podcast or watch a video about statistics and data science.
-The podcast or video must be [**at least 30 minutes**]{.underline} to count towards the data science experience.
-A few suggestions are below:
+You may conduct the interview: \* In person \* Via Zoom/Teams \* Phone call
+
+## Category 3: Podcast, Documentary, or Long-Form Video
+
+Watch or listen to a serious data science–focused program.
+
+### Requirements
+
+-   Must be ≥ 30 minutes
+-   Must be substantive and technical, ethical, or industry-focused
+-   Entertainment-only content does not qualify
+
+### Suggested Sources
 
 -   [Data Science Imposters Podcast](https://open.spotify.com/show/3tE5An6N5P5VK531GZJ0tO)
-
 -   [Data Skeptic Podcast](https://dataskeptic.com/)
-
 -   [FiveThirtyEight Model Talk](https://fivethirtyeight.com/tag/model-talk/)
-
--   [posit::conf 2023 talks](https://posit.co/blog/talks-and-workshops-from-posit-conf-2023/)
-
+-   [posit::conf 2023 talks](https://youtube.com/playlist?list=PL9HYL-VRX0oTixlfDPCS5RW_F1pccERRe&si=VG9tOGyvK0gbYldz)
 -   [Arizona Data Lab workshops](https://datascience.arizona.edu/education/uarizona-data-lab)
 
 This list is not exhaustive.
@@ -70,15 +113,17 @@ Ask your professor if you are unsure whether a particular podcast or video will 
 
 -   For reference, here are some other [podcasts](https://careerfoundry.com/en/blog/data-analytics/top-data-science-podcasts/).
 
-### Category 4: Participate in a data science competition or challenge
+## Category 4: Participate in a real modeling challenge, individually or in a team.
 
-Participate in a statistics or data science competition.
-You can participate individually or with a team.
-Information for an upcoming data challenge is linked below.
+#### Examples
 
 -   [Kaggle Competitions](https://www.kaggle.com/competitions)
 
-### Category 5: Read a book on statistics/data science
+-   [Codabench challenges](https://www.codabench.org/competitions/public/?page=1)
+
+-   Hackathons with modeling components
+
+## Category 5: Book Study in Data Science, Statistics, or Ethics
 
 There are *a lot* of books about statistics, data science, and related topics.
 A few suggestions are below.
@@ -86,35 +131,173 @@ If you decide to read a book that isn’t on this list, ask your professor to ma
 Many of these books are available through University of Arizona library.
 
 -   *The Signal and the Noise: Why so many predictions fail - but some don’t* by Nate Silver
-
 -   *Weapons of Math Destruction* by Cathy O’Neil
-
 -   *How Charts Lie: Getting Smarter about Visual Information* by Alberto Cairo
-
 -   *The Art of Statistics: How to learn from data* by David Spiegelhalter
-
 -   [List of books about data science ethics](https://teachdatascience.com/bookclub/)
 
-## Part 2: Summarize your experience {#part-2-summarize-your-experience}
+📌 You must read at least one full section, half, or the full book depending on length (defined per book).
 
-Make one slide summarizing your experience.
-Submit the slide as a PDF on GitHub.
+# PART 2 — Professional Artifact & Reflection
 
-Include the following on your slide:
+You will submit **TWO deliverables** for **EACH** Data Science Experience:
 
--   Name and brief description of the event/podcast/competition/etc.
+------------------------------------------------------------------------
 
--   Something you found new, interesting, or unexpected
+## Deliverable A: Professional One-Slide Summary (PDF)
 
--   How the event/podcast/competition/etc.
-    connects to something we’ve done in class.
+You must create **one professional-quality slide** using:
 
--   Citation or link to web page for event/competition/etc.
+-   Google Slides → Export PDF\
+-   PowerPoint → Export PDF\
+-   Quarto RevealJS → Export PDF\
+-   OR a comparable professional tool
 
-[Click here](https://docs.google.com/presentation/d/1yjN9PntV-_hQMyDgDsgPQMHy9jQUNZvFjoBfphyYyak/edit?usp=sharing) to see a template to help you get started on your slide.
-Your slide does not have to follow this exact format; it just needs to include the information mentioned above and be easily readable (i.e. use a reasonable font size!).
-Creativity is encouraged!
+> \[!N
+> ote\] Feel free to use this [template](https://docs.google.com/presentation/d/1yjN9PntV-_hQMyDgDsgPQMHy9jQUNZvFjoBfphyYyak/edit?usp=sharing) or use `slide.qmd`
 
-## Submission {#submission}
+### Your slide MUST include:
 
-Submit the reflection as a PDF under the **Data Science Experience** assignment on GitHub by **Friday, April 25 at 11:59pm AZ time.** It must be submitted by the deadline on GitHub to be considered for grading.
+1.  **Title & Experience Type**
+
+    -   Event name / Interviewee role / Podcast title / Competition name / Book title
+
+2.  **Core Topic Summary**
+
+    -   What was this experience actually about?
+
+3.  **Something New, Surprising, or Challenging**
+
+    -   A technical concept you didn’t know\
+    -   A career reality you didn’t expect\
+    -   A modeling limitation that surprised you\
+    -   An ethical tension that stood out
+
+4.  **Explicit Course Connection**\
+    You MUST reference at least **one**:
+
+    -   Statistical method\
+    -   Model type\
+    -   Visualization principle\
+    -   Data cleaning issue\
+    -   Evaluation metric\
+    -   Ethical framework
+
+    Example: \> “This directly connects to our discussion of class imbalance and ROC/AUC trade-offs.”
+
+5.  **Credible Citation or Link**
+
+    -   Event webpage\
+    -   Podcast URL\
+    -   Book reference\
+    -   Competition URL
+
+::: callout-important
+> *Slides that are vague, overly generic, or purely descriptive will not receive full credit.*
+:::
+
+------------------------------------------------------------------------
+
+## Deliverable B: Written Reflection (600–1,000 words)
+
+Your reflection must be submitted as a Quarto file named:
+
+```         
+reflection.qmd
+```
+
+### Your reflection MUST address ALL of the following sections:
+
+### 1. Context & Motivation
+
+-   Why did you choose this experience?
+-   What did you expect going in?
+
+### 2. Technical & Conceptual Learning
+
+-   What did you **actually learn** about:
+    -   Data?
+    -   Models?
+    -   Tools?
+    -   Decision-making?
+-   What technical content connected most strongly to this course?
+
+### 3. Professional Insight
+
+-   What did this reveal about:
+    -   Industry practice?
+    -   Research timelines?
+    -   Career paths?
+    -   Collaboration?
+    -   Ethics?
+
+### 4. Critical Reflection
+
+-   What limitations, biases, or tradeoffs were present?
+-   What was **not** addressed that should have been?
+-   What would you question, challenge, or investigate further?
+
+### 5. Forward Connection
+
+-   How will this experience influence:
+    -   Your future coursework?
+    -   Your projects?
+    -   Your career goals?
+    -   Your understanding of data science as a discipline?
+
+::: callout-important
+> *Summaries without analysis will not receive full credit.*
+:::
+
+------------------------------------------------------------------------
+
+# PART 3 — Evidence & Verification
+
+To ensure authenticity, you must include **at least one form of verification evidence**.
+
+### Acceptable Evidence by Experience Type:
+
+| Experience Type | Acceptable Evidence |
+|--------------------------------|----------------------------------------|
+| Talk / Workshop | Screenshot of registration, agenda, or attendance |
+| Interview | Photo (if permitted), email confirmation, or signed acknowledgment |
+| Podcast / Video | Screenshot of playback with visible timestamp |
+| Competition | Screenshot of submission page or leaderboard |
+| Book | Photo of book + page range OR reading log |
+
+Save this as:
+
+```         
+ds-experience/
+├── slide.pdf
+├── reflection.qmd
+├── evidence.pdf (or /evidence folder)
+```
+
+------------------------------------------------------------------------
+
+# Grading Rubric (Per Experience — 100 Points)
+
+| Category                        | Points  |
+|---------------------------------|---------|
+| Quality of Experience Selection | 20      |
+| Slide Content & Clarity         | 20      |
+| Technical & Course Connection   | 20      |
+| Written Reflection Depth        | 25      |
+| Evidence & Professionalism      | 15      |
+| **Total**                       | **100** |
+
+------------------------------------------------------------------------
+
+# Why This Assignment Matters
+
+By the end of the semester, you will have:
+
+-   ✅ Two real-world data science engagements\
+-   ✅ Two professional portfolio artifacts\
+-   ✅ Two deep reflections on your technical and ethical growth\
+-   ✅ A clearer understanding of how data science actually works in practice
+
+------------------------------------------------------------------------
+
+**Creativity is encouraged. Professionalism is required.**

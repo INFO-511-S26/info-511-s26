@@ -1,21 +1,19 @@
 ---
-title: "Final Assignment"
+title: "Final Assignment / Exam — Conceptual Review Guide"
 format:
   html: default
 editor_options: 
   chunk_output_type: console
 ---
 
-# **Final Assignment — Conceptual Review Guide**
-
 This guide summarizes the concepts and reasoning skills needed for each section.
 Use it to study, but you will still need to apply the ideas on your own in the final.
 
 ------------------------------------------------------------------------
 
-# **Part 1 — Simulation, Bootstrapping, and Confidence Intervals**
+# **Simulation, Bootstrapping, and Confidence Intervals**
 
-### **Q1 — Designing a Simulation**
+### Designing a Simulation**
 
 You should know:
 
@@ -31,7 +29,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q2 — Reading a Bootstrap Distribution**
+### **Reading a Bootstrap Distribution**
 
 You should be able to:
 
@@ -46,7 +44,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q3 — Interpreting Confidence Intervals**
+### **Interpreting Confidence Intervals**
 
 You should know:
 
@@ -60,9 +58,9 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-# **Part 2 — Regression Concepts**
+# **Regression Concepts**
 
-### **Q4 — Interpreting Slopes**
+### **Interpreting Slopes**
 
 Key ideas:
 
@@ -76,7 +74,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q5 — Comparing Regression Models**
+### **Comparing Regression Models**
 
 You should recall:
 
@@ -90,7 +88,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q6 — Interpreting Dummy-Coded Categorical Variables**
+### **Interpreting Dummy-Coded Categorical Variables**
 
 You should understand:
 
@@ -104,7 +102,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q7 — Releveling a Categorical Variable**
+### **Releveling a Categorical Variable**
 
 You should know:
 
@@ -118,7 +116,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q8 — Visualizing Regression with a Categorical Predictor**
+### **Visualizing Regression with a Categorical Predictor**
 
 You should be able to reason about:
 
@@ -136,9 +134,9 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-# **Part 3 — Calculus Review**
+# **Calculus Review**
 
-### **Q12 — Derivatives**
+### **Derivatives**
 
 Make sure you understand:
 
@@ -153,7 +151,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q13 — Integrals**
+### **Integrals**
 
 Key concepts:
 
@@ -167,9 +165,9 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-# **Part 4 — Linear Algebra Review**
+# **Linear Algebra Review**
 
-### **Q14 & Q15 — Transposes**
+### **Transposes**
 
 You should know:
 
@@ -182,7 +180,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q16 — Matrix Multiplication Validity & Dimensions**
+### **Matrix Multiplication Validity & Dimensions**
 
 Know how to:
 
@@ -196,7 +194,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-### **Q17 — Multiplying a Matrix and a Vector**
+### **Multiplying a Matrix and a Vector**
 
 You should understand:
 
@@ -210,7 +208,7 @@ Focus on:
 
 ------------------------------------------------------------------------
 
-# **Bonus — Self-Reflection**
+# **Self-Reflection**
 
 Be ready to:
 

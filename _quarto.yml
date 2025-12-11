@@ -77,20 +77,6 @@ website:
             text: Setting up Python
           - href: computing/computing-git.qmd
             text: Setting up Git
-      - section: "Project"
-        contents:
-          - href: project/description.qmd
-            text: Description
-          #- href: project/1-working-collaboratively.qmd
-           # text: Milestone 1
-          #- href: project/2-proposal.qmd
-           # text: Milestone 2
-          #- href: project/3-peer-review.qmd
-           # text: Milestone 3
-          #- href: project/4-writeup-presentation.qmd
-           # text: Milestone 4            
-          #- href: project/tips-resources.qmd
-            #text: Tips + resources
       - section: "Homework"
         contents:
           - href: labs/lab-0.qmd
@@ -103,25 +89,25 @@ website:
             text: Data Science Experience
       - section: "Summative"
         contents:
-          - href: summative/midterm.qmd
-            text: Midterm
+          - href: summative/midterm-review.qmd
+            text: Midterm Review
           - href: summative/final-review.qmd
             text: Final Review
-          - href: summative/final.qmd
-            text: Final
+
+
             
             
   page-footer:
     right: 'This page is built with [{{< fa heart >}}]{style="color: #FFBE98;"} and [Quarto](https://quarto.org/).'
-    left: "&copy; Copyright 2025, Greg Chism"
-    background: "#0C234B" # Arizona Blue - Spring 2025
+    left: "&copy; Copyright 2024-2026, Greg Chism"
+    background: "#0C234B" # Arizona Blue 
 
 format:
   html:
     theme:
       light: [cosmo, style/info511.scss]
       dark: [cosmo, style/info511.scss, style/dark.scss]
-    linkcolor: "#AB0520" # Arizona Red - Spring 2025
+    linkcolor: "#AB0520" # Arizona Red 
     toc: true
     code-copy: true
     code-overflow: wrap
