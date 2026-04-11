@@ -1,6 +1,5 @@
 /*-- scss:defaults --*/
 
-// fonts
 @import 'https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap';
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
@@ -13,6 +12,38 @@ $code-color: #1E5288;
 $code-block-font-size: 0.6em;
 $presentation-font-size-root: 45px;
 $presentation-h2-font-size: 1.2em;
+
+/*-- scss:rules --*/
+
+.reveal pre code {
+  width: 100%;
+  max-width: 1100px;
+  box-sizing: border-box;
+}
+
+@media print {
+  .reveal {
+    font-size: 28px !important;
+  }
+
+  .reveal .slides section {
+    height: 100% !important;
+  }
+
+  .reveal pre code {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 0.8em !important;
+  }
+
+  details {
+    display: block !important;
+  }
+
+  details > *:not(summary) {
+    display: block !important;
+  }
+}
 
 /*-- scss:rules --*/
 

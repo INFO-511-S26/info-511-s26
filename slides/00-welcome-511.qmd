@@ -10,24 +10,24 @@ jupyter: python3
 
 ## Meet the prof
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 Dr. Greg Chism
 
 Assistant Professor of the Practice
 
-Harvill 420
+Online only
 :::
 
 ::: {.column width="50%"}
 ![](images/greg.png){fig-alt="Headshot of Dr. Mine Çetinkaya-Rundel" fig-align="center"}
 :::
-:::
+:::::
 
 ## Meet each other!
 
 ::: callout-important
-Introduce yourself via the #general channel in the course [Slack](https://info511fall2024.slack.com)
+Introduce yourself via the #general channel in the course Discord (see D2L announcement)
 :::
 
 ## Meet data science
@@ -80,7 +80,7 @@ Introduce yourself via the #general channel in the course [Slack](https://info51
 
 ## 
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/google-trend-index.png){fig-align="center"}
 :::
@@ -106,7 +106,7 @@ travel = pd.DataFrame(data)
 print(travel)
 ```
 :::
-:::
+:::::
 
 ## Communicate
 
@@ -120,16 +120,6 @@ print(travel)
 
 ![](images/data-science-cycle/data-science-cycle.009.png){fig-alt="Data science life cycle, with program highlighted"}
 
-# Let's dive in!
-
-## Application exercise
-
-::: appex
-Or more like demo for today...
-
-📋 [github.com/INFO-511-F24/ae-00-unvotes](https://github.com/INFO-511-F24/ae-00-unvotes/)
-:::
-
 # Course overview
 
 ## Homepage
@@ -137,15 +127,13 @@ Or more like demo for today...
 <https://datasciaz.netlify.app/>
 
 -   All course materials
--   Links to GitHub, D2L, Posit Cloud (can run Jupyter), etc.
+-   Links to GitHub, D2L, Codespaces (can run Jupyter), etc.
 
 ## Course toolkit
 
 All linked from the course website:
 
--   GitHub org: [github.com/INFO-511-F24](https://github.com/INFO-511-F24)
--   Posit Cloud: [posit.cloud](https://posit.cloud/)
--   Communication: [Slack](https://info511fall2024.slack.com)
+-   Communication: Discord
 -   Assignment submission and feedback: Github
 
 ## Activities {.smaller}
@@ -154,9 +142,10 @@ All linked from the course website:
 -   Actively participate office hours, team meetings
 -   Practice applying data science concepts and computing with application exercises during lecture, graded for completion
 -   Put together what you've learned to analyze real-world data
-    -   Lab assignments x 7
+    -   Homework assignments x 5
+    -   Weekly Activities x 16
+    -   DS Experiences x 2
     -   Exams x 2
-    -   Term project presented in the last lab session
 
 ## Exams {.smaller}
 
@@ -169,45 +158,17 @@ Exam dates cannot be changed and no make-up exams will be given.
 If you can’t take the exams on these dates, you should drop this class.
 :::
 
-## Project {.smaller}
-
--   Dataset of your choice, method of your choice
-
--   Teamwork
-
--   Presentation and write-up
-
--   Presentations in the last week (video recordings)
-
--   Interim deadlines, peer review on content, peer evaluation for team contribution
-
-::: callout-caution
-Final presentation date cannot be changed.
-If you can’t present on that date, you should drop this class.
-You must complete the project to pass this class.
-:::
-
-## Teams
-
--   Assigned by me
--   Project
--   Peer evaluation during teamwork and after completion
--   Expectations and roles
-    -   Everyone is expected to contribute equal *effort*
-    -   Everyone is expected to understand *all* code turned in
-    -   Individual contribution evaluated by peer evaluation, commits, etc.
-
 ## Grading {.smaller}
 
 | Category              | Percentage |
 |-----------------------|------------|
-| Labs                  | 30%        |
-| Project               | 25%        |
+| HWs                   | 30%        |
+| DS Experiences        | 20%        |
 | Exam 1                | 20%        |
 | Exam 2                | 20%        |
-| Application Exercises | 5%         |
+| Application Exercises | 10%        |
 
-No specific points allocated to participation, but participation via Slack, particularly Discussions, will be recorded periodically throughout the semester, and this information will be used as “extra credit” if you’re in between two grades and a minor bump would help.
+No specific points allocated to participation, but participation via Discord, particularly Discussions, will be recorded periodically throughout the semester, and this information will be used as “extra credit” if you’re in between two grades and a minor bump would help.
 
 See [course syllabus](https://datasciaz.netlify.app/course-syllabus.html) for how the final letter grade will be determined.
 
@@ -220,7 +181,7 @@ See [course syllabus](https://datasciaz.netlify.app/course-syllabus.html) for ho
 
 ## Announcements
 
--   Posted on D2L (Announcements tool) but [primarily sent via Slack]{.underline}, be sure to check both regularly
+-   Posted on D2L (Announcements tool) but [primarily sent via Discord]{.underline}, be sure to check both regularly
 -   I'll assume that you've read an announcement by the next "business" day
 
 ## Diversity + inclusion {.smaller}
@@ -259,7 +220,7 @@ My goal is to ensure that students from all diverse backgrounds are well-served 
 
 ## This week's tasks
 
--   Complete Lab 0
+-   Complete Initial Exercises
     -   Computational setup
     -   Getting to know you survey
 -   Read the syllabus

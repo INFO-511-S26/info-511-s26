@@ -82,13 +82,13 @@ Ask if you're not sure if something violates a policy!
 
 ## Course toolkit {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 **Course operation**
 
 -   Materials: [datasciaz.netlify.app](https://datasciaz.netlify.app/)
 -   Submission: GitHub
--   Discussion: Slack
+-   Discussion: Discord
 -   Gradebook: D2L
 :::
 
@@ -103,7 +103,7 @@ Ask if you're not sure if something violates a policy!
     -   Git
     -   GitHub
 :::
-:::
+:::::
 
 # Toolkit: Computing
 
@@ -152,7 +152,7 @@ What does it mean for a data analysis to be "reproducible"?
 
 ## Python and Jupyter {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/python.jpeg){fig-alt="R logo" fig-align="center" width="100"}
 
@@ -170,7 +170,7 @@ What does it mean for a data analysis to be "reproducible"?
 
 -   Jupyter is not a requirement for programming with Python, but it's very commonly used by Python programmers and data scientists
 :::
-:::
+:::::
 
 ## Python vs. Jupyter
 
@@ -198,16 +198,16 @@ Source: [Modern Dive](https://moderndive.com/1-getting-started.html) (modified).
 
 ## Tour: Python + Jupyter (via VS Code) {.smaller}
 
-::: columns
-::: {.column width="50%"}
+::::::: columns
+:::: {.column width="50%"}
 ::: demo
 **Option 1:**
 
 Sit back and enjoy the show!
 :::
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ::: appex
 **Option 2:**
 
@@ -217,8 +217,8 @@ Clone the corresponding application exercise repo and follow along.
 
 Go to the [course GitHub organization](https://github.com/INFO-511-F24) and clone [`ae-01-meet-the-penguins`](https://github.com/INFO-511-F24/ae-01-meet-the-penguins) to your environment.
 :::
-:::
-:::
+::::
+:::::::
 
 ## Tour recap: Python + Jupyter (via VS Code)
 
@@ -291,16 +291,16 @@ help(pd.Series.mean)
 
 ## Tour: Jupyter Notebooks {.smaller}
 
-::: columns
-::: {.column width="50%"}
+::::::: columns
+:::: {.column width="50%"}
 ::: demo
 **Option 1:**
 
 Sit back and enjoy the show!
 :::
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ::: appex
 **Option 2:**
 
@@ -310,8 +310,8 @@ Clone the corresponding application exercise repo and follow along.
 
 Go to the [course GitHub organization](https://github.com/INFO-511-F24) and clone [`ae-01-meet-the-penguins`](https://github.com/INFO-511-F24/ae-01-penguins) to your environment.
 :::
-:::
-:::
+::::
+:::::::
 
 ## Tour recap: Jupyter Notebooks
 

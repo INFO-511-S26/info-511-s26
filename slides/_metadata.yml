@@ -7,8 +7,9 @@ format:
     theme: slides.scss
     transition: fade
     slide-number: true
-    chalkboard: true
     highlight-style: a11y-dark
+    self-contained: true
+    
 editor: visual
 execute:
   freeze: auto

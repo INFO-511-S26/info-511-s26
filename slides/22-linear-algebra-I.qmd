@@ -25,15 +25,15 @@ execute:
 
 ## Vectors {.smaller}
 
-::: fragment
+:::: fragment
 **Definition:**
 
 ::: incremental
 -   Vectors are objects that can be added together and multiplied by scalars to form new vectors. In a data science context, vectors are often used to represent numeric data.
 :::
-:::
+::::
 
-::: fragment
+:::: fragment
 **Examples:**
 
 ::: incremental
@@ -41,7 +41,7 @@ execute:
 
 -   Four-dimensional vector: \[exam1, exam2, exam3, exam4\] = \[95, 80, 75, 62\]
 :::
-:::
+::::
 
 ## Vectors in Python {.smaller}
 
@@ -74,7 +74,7 @@ plt.show()
 
 ## Vector addition {.smaller}
 
-::: panel-tabset
+:::: panel-tabset
 ## Example
 
 ::: incremental
@@ -110,11 +110,11 @@ plt.ylim(-2, 3)
 plt.grid()
 plt.show()
 ```
-:::
+::::
 
 ## Vector subtraction {.smaller}
 
-::: panel-tabset
+:::: panel-tabset
 ## Example
 
 ::: incremental
@@ -150,11 +150,11 @@ plt.ylim(-2, 3)
 plt.grid()
 plt.show()
 ```
-:::
+::::
 
 ## Vector scaling {.smaller}
 
-::: panel-tabset
+:::: panel-tabset
 ## Example
 
 ::: incremental
@@ -185,7 +185,7 @@ plt.ylim(0, 5)
 plt.grid()
 plt.show()
 ```
-:::
+::::
 
 # Linearly independent and span
 
