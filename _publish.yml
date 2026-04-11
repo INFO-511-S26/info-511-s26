@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 8459c914-8074-49b1-9eda-0ae6a2e3d636
+      url: 'https://datasciaz.netlify.app'
